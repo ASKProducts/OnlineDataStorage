@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ODSViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *ChatBox;
+@property (weak, nonatomic) IBOutlet UITextField *inputText;
+- (IBAction)send:(id)sender;
 
 @end

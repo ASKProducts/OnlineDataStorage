@@ -23,6 +23,7 @@
 		57FDB69B169E28A4007E7E76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FDB676169E28A3007E7E76 /* Foundation.framework */; };
 		57FDB6A3169E28A4007E7E76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57FDB6A1169E28A4007E7E76 /* InfoPlist.strings */; };
 		57FDB6A6169E28A4007E7E76 /* OnlineDataStorageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDB6A5169E28A4007E7E76 /* OnlineDataStorageTests.m */; };
+		57FDB6B1169E28F0007E7E76 /* ODSDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDB6B0169E28F0007E7E76 /* ODSDataStorage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		57FDB6A2169E28A4007E7E76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57FDB6A4169E28A4007E7E76 /* OnlineDataStorageTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnlineDataStorageTests.h; sourceTree = "<group>"; };
 		57FDB6A5169E28A4007E7E76 /* OnlineDataStorageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnlineDataStorageTests.m; sourceTree = "<group>"; };
+		57FDB6AF169E28F0007E7E76 /* ODSDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODSDataStorage.h; sourceTree = "<group>"; };
+		57FDB6B0169E28F0007E7E76 /* ODSDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODSDataStorage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				57FDB684169E28A3007E7E76 /* ODSAppDelegate.m */,
 				57FDB68C169E28A4007E7E76 /* ODSViewController.h */,
 				57FDB68D169E28A4007E7E76 /* ODSViewController.m */,
+				57FDB6AF169E28F0007E7E76 /* ODSDataStorage.h */,
+				57FDB6B0169E28F0007E7E76 /* ODSDataStorage.m */,
 				57FDB68F169E28A4007E7E76 /* ODSViewController.xib */,
 				57FDB67B169E28A3007E7E76 /* Supporting Files */,
 			);
@@ -274,6 +279,7 @@
 				57FDB681169E28A3007E7E76 /* main.m in Sources */,
 				57FDB685169E28A3007E7E76 /* ODSAppDelegate.m in Sources */,
 				57FDB68E169E28A4007E7E76 /* ODSViewController.m in Sources */,
+				57FDB6B1169E28F0007E7E76 /* ODSDataStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
