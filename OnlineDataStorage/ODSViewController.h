@@ -11,6 +11,8 @@
 @interface ODSViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextView *ChatBox;
 @property (weak, nonatomic) IBOutlet UITextField *inputText;
-- (IBAction)send:(id)sender;
+- (void)send:(UIButton*)button;
+- (IBAction)clear:(id)sender;
 
+- (IBAction)refresh:(id)sender;
 @end
